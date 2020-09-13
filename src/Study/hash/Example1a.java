@@ -1,4 +1,4 @@
-package Study.Hash;
+package Study.hash;
 
 public class Example1a {
     static class HashTable {

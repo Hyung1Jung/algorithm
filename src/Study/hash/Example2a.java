@@ -1,4 +1,4 @@
-package Study.Hash;
+package Study.hash;
 
 public class Example2a {
     static class MyArray {
