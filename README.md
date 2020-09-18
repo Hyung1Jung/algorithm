@@ -67,7 +67,8 @@
 -------------  
  * 2018 카카오 코드 페스티벌 예선
      * [상금 헌터](https://junghyungil.tistory.com/6?category=892298)
-
+ * 2018 KAKAO BLIND RECRUITMENT
+     * [비밀지도](https://junghyungil.tistory.com/26?category=892298)
 
 
 
