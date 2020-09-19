@@ -29,7 +29,7 @@
      * [Level2 - 소수 찾기]()
      * [Level2 - 카펫]()   
 * Greedy
-     * [Level1 - 체육복]()
+     * [Level1 - 체육복](https://junghyungil.tistory.com/30?category=892296)
      * [Level2 - 큰 수 만들기]()
      * [Level2 - 조이스틱]()       
      * [Level2 - 구명보트]()
