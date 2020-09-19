@@ -24,7 +24,7 @@
     * [Level2 - 더 맵게]()
     * [Level3 - 디스크 컨트롤러]()
     * [Level3 - 이중 우선순위 큐]()
-* BP
+* Bf
      * [Level1 - 모의고사](https://junghyungil.tistory.com/32?category=892296)
      * [Level2 - 소수 찾기]()
      * [Level2 - 카펫]()   
