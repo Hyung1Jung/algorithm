@@ -35,13 +35,10 @@
      * [Level2 - 구명보트]()
      * [Level3 - 섬 연결하기]()
      * [Level3 -단속카메라]()
- * Greedy
-     * [Level1 - 체육복]()
-     * [Level2 - 큰 수 만들기]()
-     * [Level2 - 조이스틱]()       
-     * [Level2 - 구명보트]()
-     * [Level3 - 섬 연결하기]()
-     * [Level3 -단속카메라]()           
+ * sorting
+     * [Level1 - K번째수](https://junghyungil.tistory.com/33?category=892296)
+     * [Level2 - 가장 큰수]()
+     * [Level2 - H-INDEX]()                
  * Dynamic Programming
      * [Level3 - N으로 표현]()
      * [Level3 - 정수 삼각형]()
