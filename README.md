@@ -48,7 +48,7 @@
      * [Level3 - 등굣길]()       
      * [Level4 - 도둑질]()
  * DFS/BFS
-     * [Level2 - 타겟 넘버]()
+     * [Level2 - 타겟 넘버](https://junghyungil.tistory.com/31?category=892296)
      * [Level3 - 네트워크]()
      * [Level3 - 단어 변환]()       
      * [Level4 - 여행 경로]()      
