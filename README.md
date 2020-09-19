@@ -1,7 +1,6 @@
 알고리즘 문제 풀이 및 각종 코딩테스트 정리
 =============
 
- 
 기본 이론 및 실습
 -------------
 * [Hash](https://junghyungil.tistory.com/21?category=892525)
@@ -30,7 +29,7 @@
      * [Level2 - 소수 찾기]()
      * [Level2 - 카펫]()   
 * Greedy
-     * [Level1 - 체육복]()
+     * [Level1 - 체육복](https://junghyungil.tistory.com/30?category=892296)
      * [Level2 - 큰 수 만들기]()
      * [Level2 - 조이스틱]()       
      * [Level2 - 구명보트]()
@@ -49,7 +48,7 @@
      * [Level3 - 등굣길]()       
      * [Level4 - 도둑질]()
  * DFS/BFS
-     * [Level2 - 타겟 넘버]()
+     * [Level2 - 타겟 넘버](https://junghyungil.tistory.com/31?category=892296)
      * [Level3 - 네트워크]()
      * [Level3 - 단어 변환]()       
      * [Level4 - 여행 경로]()      
