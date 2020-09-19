@@ -2,7 +2,7 @@ package programmers.Hash;
 
 import java.util.HashMap;
 
-public class Level1 {
+public class an_uncompleted_player {
 
     public String solution(String[] participant, String[] completion) {
         String answer = "";
