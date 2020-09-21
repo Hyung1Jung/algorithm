@@ -58,7 +58,9 @@
      * [Level5 - 방의 개수]() 
      
 백준
--------------     
+-------------    
+* stack/queue 
+    * [임의의 수열 만들기](https://junghyungil.tistory.com/34?category=892297)
 
 카카오
 -------------  
