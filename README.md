@@ -63,7 +63,7 @@
  * [임의의 수열 만들기](https://junghyungil.tistory.com/34?category=892297)
  * [소수 찾기](https://junghyungil.tistory.com/35?category=892297)
  * [10806(Deque)](https://junghyungil.tistory.com/37?category=892297)
- 
+ * [9020(골드바흐의 추측)](https://junghyungil.tistory.com/38?category=892297)
 
 카카오
 -------------  
