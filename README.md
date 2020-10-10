@@ -70,6 +70,14 @@
      * [상금 헌터](https://junghyungil.tistory.com/6?category=892298)
  * 2018 KAKAO BLIND RECRUITMENT
      * [비밀지도](https://junghyungil.tistory.com/26?category=892298)
+     
+우아한테크코스
+-------------
+ * 1기
+    * [Q1](https://junghyungil.tistory.com/42?category=892299)
+ 
+
+       
 
 
 
