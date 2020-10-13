@@ -62,6 +62,19 @@ public class Q2_1th {
 
         array_Word = word.split("");
 
+        for (String c_word : array_Word) {
+            boolean is_upp = Character.isUpperCase(c_word.charAt(0));
+
+            String temp_result = alpha.get(c_word.toUpperCase());
+            if (temp_result == null) {
+                temp_result = " ";
+            }else if(!is_upp) {
+                temp_result = temp_result.toLowerCase();
+            }
+
+            result = result.concat(temp_result);
+        }
+
         return result;
     }
 
