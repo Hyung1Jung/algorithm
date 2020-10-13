@@ -1,5 +1,4 @@
 package woowacouse2;
-
 /*
 문제 설명
 
