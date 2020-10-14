@@ -78,7 +78,10 @@
     * [Q1](https://junghyungil.tistory.com/42?category=892299)
     * [Q2](https://junghyungil.tistory.com/43?category=892299)
  * 2기
-
+ 
+ 기타
+ -------------
+ * [자료구조 안 쓰고 중복되는 문자가 있는지 확인하는 함수](https://junghyungil.tistory.com/46?category=900655)
 
        
 
