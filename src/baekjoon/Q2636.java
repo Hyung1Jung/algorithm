@@ -10,7 +10,7 @@ public class Q2636 {
     static int[] rx = { -1, 1, 0, 0 };
     static int[] ry = { 0, 0, -1, 1 };
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
@@ -51,7 +51,7 @@ public class Q2636 {
                     cheeseMap[ny][nx] = 2;
                     d = 0;
                 } else if(cheeseMap[ny][nx] == 0) {	// 공기(0)면 -> 계속 탐색
-                    dfs(ny, nx);
+                    dfs(ny, nx);                    // 재귀함수
                 }
             }
         }
@@ -72,10 +72,10 @@ public class Q2636 {
         }
 
         if (count == 0) {
-            return false;
+            return false;        // count가 0이 되서 false면 do ~while문 종료
         } else {
             cheeseLast = count;
-            return true;
+            return true;         // true면 do{} 다시 실행
         }
     }
 
