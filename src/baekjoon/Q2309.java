@@ -8,7 +8,6 @@ import java.io.OutputStreamWriter;
 public class Q2309 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int[] a = new int[9];
         int sum = 0;
 
