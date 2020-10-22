@@ -6,7 +6,6 @@
 * [Hash](https://junghyungil.tistory.com/21?category=892525)
 * [Greedy]()
 
-
 프로그래머스
 -------------
 
@@ -68,9 +67,10 @@
  * [일곱난장이](https://github.com/Hyung1Jung/algorithm/blob/master/src/baekjoon/Q2309.java)
  * [테트로미노](https://github.com/Hyung1Jung/algorithm/blob/master/src/baekjoon/Q14500.java)
  * [1,2,3 더하기](https://github.com/Hyung1Jung/algorithm/blob/master/src/baekjoon/Q9095.java)
+ 
 카카오
 -------------  
- *** 2018 카카오 코드 페스티벌 예선
+ * 2018 카카오 코드 페스티벌 예선
      * [상금 헌터](https://junghyungil.tistory.com/6?category=892298)**
  * 2018 KAKAO BLIND RECRUITMENT
      * [비밀지도](https://junghyungil.tistory.com/26?category=892298)
