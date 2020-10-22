@@ -32,7 +32,7 @@ public class Q14500 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
-        int n = Integer.parseInt(st.nextToken()); // 문자형을 정수형으로 바꾸기 위해 Integer.parseInt
+        int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
 
         int[][] paper = new int[n][m];
