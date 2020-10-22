@@ -66,6 +66,8 @@
  * [치즈](https://junghyungil.tistory.com/45?category=892297)
  * [날짜계산](https://github.com/Hyung1Jung/algorithm/blob/master/src/baekjoon/Q1476.java)
  * [일곱난장이](https://github.com/Hyung1Jung/algorithm/blob/master/src/baekjoon/Q2309.java)
+ * [테트로미노](https://github.com/Hyung1Jung/algorithm/blob/master/src/baekjoon/Q14500.java)
+ * [1,2,3 더하기](https://github.com/Hyung1Jung/algorithm/blob/master/src/baekjoon/Q9095.java)
 카카오
 -------------  
  *** 2018 카카오 코드 페스티벌 예선
