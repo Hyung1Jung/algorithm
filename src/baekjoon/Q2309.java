@@ -1,9 +1,7 @@
 package baekjoon;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 
 public class Q2309 {
     public static void main(String[] args) throws Exception {
