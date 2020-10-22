@@ -64,11 +64,12 @@
  * [10806(Deque)](https://junghyungil.tistory.com/37?category=892297)
  * [9020(골드바흐의 추측)](https://junghyungil.tistory.com/38?category=892297)
  * [치즈](https://junghyungil.tistory.com/45?category=892297)
- 
+ * [날짜계산](https://github.com/Hyung1Jung/algorithm/blob/master/src/baekjoon/Q1476.java)
+ * [일곱난장이](https://github.com/Hyung1Jung/algorithm/blob/master/src/baekjoon/Q2309.java)
 카카오
 -------------  
- * 2018 카카오 코드 페스티벌 예선
-     * [상금 헌터](https://junghyungil.tistory.com/6?category=892298)
+ *** 2018 카카오 코드 페스티벌 예선
+     * [상금 헌터](https://junghyungil.tistory.com/6?category=892298)**
  * 2018 KAKAO BLIND RECRUITMENT
      * [비밀지도](https://junghyungil.tistory.com/26?category=892298)
      
