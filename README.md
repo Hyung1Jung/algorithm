@@ -10,22 +10,14 @@
 프로그래머스
 -------------
 
-* Hash
-    * [Level1 - 완주하지 못한 선수](https://junghyungil.tistory.com/2?category=892296)
-    * [Level2 - 전화번호 목록](https://junghyungil.tistory.com/3?category=892296)
-    * [Level2 - 위장](https://junghyungil.tistory.com/4?category=892296)
-    * [Level4 - 베스트 앨범](https://junghyungil.tistory.com/5?category=892296)
-* Bf
-    * [Level1 - 모의고사](https://junghyungil.tistory.com/32?category=892296)
-* Greedy
-    * [Level1 - 체육복](https://junghyungil.tistory.com/30?category=892296)
- * sorting
-    * [Level1 - K번째수](https://junghyungil.tistory.com/33?category=892296)         
- * Dynamic Programming 
- * DFS/BFS
-     * [Level2 - 타겟 넘버](https://junghyungil.tistory.com/31?category=892296)    
- * Binary Search
- * Grape
+   * [완주하지 못한 선수](https://junghyungil.tistory.com/2?category=892296)
+   * [전화번호 목록](https://junghyungil.tistory.com/3?category=892296)
+   * [위장](https://junghyungil.tistory.com/4?category=892296)
+   * [베스트 앨범](https://junghyungil.tistory.com/5?category=892296)
+   * [모의고사](https://junghyungil.tistory.com/32?category=892296)
+   * [체육복](https://junghyungil.tistory.com/30?category=892296)
+   * [K번째수](https://junghyungil.tistory.com/33?category=892296)         
+   * [타겟 넘버](https://junghyungil.tistory.com/31?category=892296)    
      
 백준
 -------------    
