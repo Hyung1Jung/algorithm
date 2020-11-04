@@ -5,6 +5,7 @@
 -------------
 * [Hash](https://junghyungil.tistory.com/21?category=892525)
 * [Greedy]()
+* [Algorism 기법]()
 
 프로그래머스
 -------------
@@ -82,6 +83,13 @@
     * [Q2](https://junghyungil.tistory.com/43?category=892299)
     * [Q4](https://junghyungil.tistory.com/47?category=892299)
  * 2기
+ 
+ 우아한테크코스
+ -------------
+ 
+ LeetCode
+ -------------
+
  
  기타
  -------------
