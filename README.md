@@ -3,9 +3,9 @@
 
 기본 이론 및 실습
 -------------
+* [Algorism 기법](https://junghyungil.tistory.com/55?category=892280)
 * [Hash](https://junghyungil.tistory.com/21?category=892525)
 * [Greedy]()
-* [Algorism 기법]()
 
 프로그래머스
 -------------
