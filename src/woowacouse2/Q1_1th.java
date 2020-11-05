@@ -42,3 +42,28 @@ public class Q1_1th {
 
 }
 
+/*
+
+방법 2
+
+    public static int[] solution(int money) {
+
+    static final int[] 금액 = { 50000, 10000, 5000, 1000, 500, 100, 50, 10, 1 };
+
+    public static int[] solution(int money) {
+        int[] 갯수 = new int[9];
+        for (int i = 0; i < 금액.length; ++i) {
+            갯수[i] = money / 금액[i];
+            money = money % 금액[i];
+        }
+        return 갯수;
+    }
+
+    public static void main(String[] args) {
+        int[] a = { 50237, 15000 };
+        for (int money : a)
+            System.out.println(Arrays.toString(solution(money)));
+    }
+}
+
+ */
