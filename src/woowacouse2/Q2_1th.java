@@ -1,84 +1,82 @@
 package woowacouse2;
+
 /*
-문제 설명
+물 좋고 공기 좋은 강원도 양양의 한 개발자 마을 토지를 분양받고자 합니다.
+토지는 직사각형 형태로 분양받을 수 있으며, x축(수평 방향)과 y축(수직 방향)에 의해 만들어지는 2차원 평면에서 두 점 P1(x1, y1)과 P2(x2, y2)로 표현할 수 있습니다.
+마을 곳곳에는 식수원이 존재하여, 이미 분양된 토지와 겹치지 않으며 식수원 일부를 포함한 토지를 분양받고자 합니다.
 
+사진 생략 (궁금하면 사진 드릴게요.)
 
-어느 연못에 엄마 말씀을 좀처럼 듣지 않는 청개구리가 살고 있엇습니다.
-청개구리는 엄마가 하는 말은 무엇이든 반대로 말하였습니다.
+이미 분양된 토지와 겹치지 않으며 식수원을 포함하고 있으므로 분양 가능합니다.
+이미 분양된 토지별 위치를 담은 이차원 배열 lands와 식수원별 위치를 담은 이차원 배열 wells, 분양받고자 하는 토지의 위치를 담은 배열 point가 매개변수로 주어질 때, 토지분양이 가능한지 판별하여 return 하도록 solution 메서드를 완성해주세요.
 
-엄마 말씀 word가 매개변수로 주어질 때, 아래 청개구리 사전을 참고해 반대로 변환하여 return하도록
-solution 메서드를 완성해주세요.
+* 제한사항
+lands와 wells의 길이는 1 이상 10,000 이하입니다.
+lands와 wells의 원소(토지와 식수원의 위치)는 [x1, y1, x2, y2]로 들어있습니다.
+point의 길이는 4입니다.
+point에는 점이 [x1, y1, x2, y2]로 들어있습니다.
+x 좌표와 y 좌표는 0 이상 1,000,000 이하인 정수입니다.
 
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Z Y X W V U T S R Q P O N M L K J I H G F E D C B A
+* 입출력 예
+int[][] lands = { {10, 0, 30, 5}, {0, 30, 20, 50}, {30, 30, 40, 40} };
+int[][] wells = { {15, 15, 25, 25}, {40, 10, 50, 20}};
+int[] point ={10, 10, 30, 30};
 
+* 입출력 예)1
+lands : [ [10, 0, 30, 5], [0, 30, 20, 50], [30, 30, 40, 40] ]
+wells : [ [15, 15, 25, 25], [40, 10, 50, 20] ]
+point : [10, 10, 30, 30]
+result : true
 
-제한사항
-word는 길이가 1 이상 1,00이상 이하인 문자열입니다.
-알파벳 외의 문자는 변환하지 않습니다.
-알파벳 대문자는 알파벳 대문자로, 알파벳 소문자는 알파벳 소문자로 변환합니다.
+* 입출력 예)2
+lands : [ [0, 0, 20, 10], [10, 20, 20, 40], [30, 0, 50, 20] ]
+wells : [ [20, 40, 30, 50], [30, 20, 50, 30] ]
+point : [20, 30, 30, 40]
+result : false
 
-
-입출력 예
-word result
-I love you R olev blf
-
-
-입출력 예 설명
+* 입출력 예 설명
 입출력 예 #1
-
-'I'는 알파벳 대문자이므로 'R'로 변환 할 수 있습니다.
-공백(스페이스바)은 알파벳 외의 문자이므로 변환하지 않습니다.
-'l'은 알파벳 소문자이므로 'o'로 변환할 수 있습니다.
-'o'은 알파벳 소문자이므로 'l'로 변환할 수 있습니다.
-'v'은 알파벳 소문자이므로 'e'로 변환할 수 있습니다.
-'e'은 알파벳 소문자이므로 'v'로 변환할 수 있습니다.
-공백(스페이스바)은 알파벳 외의 문자이므로 변환하지 않습니다.
-'y'은 알파벳 소문자이므로 'b'로 변환할 수 있습니다.
-'o'은 알파벳 소문자이므로 'l'로 변환할 수 있습니다.
-'u'은 알파벳 소문자이므로 'f'로 변환할 수 있습니다.
-
+문제의 예시와 같습니다.
+입출력 예 #2
+이미 분양된 토지와 겹치지 않지만 식수원 일부를 포함하고 있지 않아 분양받을 수 없습니다.
 
  */
-
-import java.util.HashMap;
-import java.util.Map;
-
 public class Q2_1th {
 
-    public static String solution(String word) {
-        String result = "";
+    static final int X1 = 0, Y1 = 1, X2 = 2, Y2 = 3;
 
-        String[] array_Word;
-        String[] change_word = {"Z", "Y", "X", "W", "V", "U", "T", "S", "R", "Q", "P", "O", "N", "M",
-                "L", "K", "J", "I", "H", "G", "F", "E", "D", "C", "B", "A"};
+    static int left(int[] r) { return Math.min(r[X1], r[X2]); }   // 사각형 r의 왼쪽 경계 좌표
+    static int right(int[] r) { return Math.max(r[X1], r[X2]); }  // 사각형 r의 오른쪽 경계 좌표
+    static int top(int[] r) { return Math.min(r[Y1], r[Y2]); }    // 사각형 r의 윗쪽 경계 좌표
+    static int bottom(int[] r) { return Math.max(r[Y1], r[Y2]); } // 사각형 r의 아래쪽 경계 좌표
 
-        Map<String, String> map = new HashMap<>();
+    // 두 사각형 r1, r2가 겹치는가? 단지 경계선만이 닿는 것은 겹치는 것이 아닌 것으로 구현함.
+    public static boolean overlap(int[] r1, int[] r2) {
+        if (right(r1) <= left(r2) || right(r2) <= left(r1)) return false;
+        if (bottom(r1) <= top(r2) || bottom(r2) <= top(r1)) return false;
+        return true;
+    }
 
-        for (int i = 0; i < change_word.length; i++) {
-            map.put(Character.toString(('A' + i)), change_word[i]);
-        }
+    // 사각형 목록 rects의 사각형 중에서, 사각형 r과 겹치는 것이 있는가?
+    public static boolean overlap(int[][] rects, int[] r) {
+        for (int[] rect : rects)
+            if (overlap(rect, r)) return true;
+        return false;
+    }
 
-        array_Word = word.split("");
-
-        for (String c_word : array_Word) {
-            boolean b = Character.isUpperCase(c_word.charAt(0));
-
-            String temp_result = map.get(c_word.toUpperCase());
-
-            if (temp_result == null) {
-                temp_result = " ";
-            } else if (!b) {
-                temp_result = temp_result.toLowerCase();
-            }
-
-            result = result.concat(temp_result);
-        }
-        return result;
+    public static boolean solution(int[][] lands, int[][] wells, int[] point) {
+        return overlap(lands, point) == false && overlap(wells, point) == true;
     }
 
     public static void main(String[] args) {
-        System.out.println(solution("I love you"));
-    }
+        int[][] lands1 = { {10, 0, 30, 5}, {0, 30, 20, 50}, {30, 30, 40, 40} };
+        int[][] wells1 = { {15, 15, 25, 25}, {40, 10, 50, 20} };
+        int[] point1 = {10, 10, 30, 30};
+        System.out.println(solution(lands1, wells1, point1));
 
+        int[][] lands2 = { {0, 0, 20, 10}, {10, 20, 20, 40}, {30, 0, 50, 20} };
+        int[][] wells2 = { {20, 40, 30, 50}, {30, 20, 50, 30} };
+        int[] point2 = {20, 30, 30, 40};
+        System.out.println(solution(lands2, wells2, point2));
+    }
 }
