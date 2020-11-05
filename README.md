@@ -17,7 +17,8 @@
    * [모의고사](https://junghyungil.tistory.com/32?category=892296)
    * [체육복](https://junghyungil.tistory.com/30?category=892296)
    * [K번째수](https://junghyungil.tistory.com/33?category=892296)         
-   * [타겟 넘버](https://junghyungil.tistory.com/31?category=892296)    
+   * [타겟 넘버](https://junghyungil.tistory.com/31?category=892296)
+   * [두 수 뽑아 더해서 오름차순 출력](https://github.com/Hyung1Jung/algorithm/blob/master/src/programmers/bf/pickTwoAndAdd.java)    
      
 백준
 -------------    
