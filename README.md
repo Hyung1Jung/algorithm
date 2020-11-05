@@ -39,13 +39,14 @@
  * 2018 KAKAO BLIND RECRUITMENT
      * [비밀지도](https://junghyungil.tistory.com/26?category=892298)
      
-우아한테크코스
+우아한
 -------------
  * 1기
-    * [Q1](https://junghyungil.tistory.com/42?category=892299)
-    * [Q2](https://junghyungil.tistory.com/43?category=892299)
-    * [Q4](https://junghyungil.tistory.com/47?category=892299)
-    * [Q5]()
+    * [Q1](https://github.com/Hyung1Jung/algorithm/blob/master/src/woowacouse2/Q1_1th.java)
+    * [Q2](https://github.com/Hyung1Jung/algorithm/blob/master/src/woowacouse2/Q2_1th.java)
+    * [Q3]
+    * [Q4](https://github.com/Hyung1Jung/algorithm/blob/master/src/woowacouse2/Q4_1th.java)
+    * [Q5](https://github.com/Hyung1Jung/algorithm/blob/master/src/woowacouse2/Q5_1th.java)
     * [Q6]()
     * [Q7]()
  * 2기
