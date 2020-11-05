@@ -1,4 +1,6 @@
 package woowacouse2;
+
+
 /*
 문제 설명
 
@@ -23,21 +25,20 @@ money	result
 */
 
 import java.util.Arrays;
+
 public class Q1_1th {
 
-    public int[] solution(int money) {
+    public static int[] solution(int money) {
 
         int[] answer = new int[9];
         int[] sort_money = new int[]{50000, 10000, 5000, 1000, 500, 100, 50, 10, 1};
 
         for (int i = 0; i < sort_money.length; i++) {
-            if (1 == 0) {
-                answer[i] = (money / sort_money[i]);
-            } else {
-                answer[i] = (money % sort_money[i - 1]) / sort_money[i];
-            }
+            answer[i] = (money / sort_money[i]);
+            money = money - (answer[i] * sort_money[i]);
         }
         return answer;
     }
+
 }
 
