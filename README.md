@@ -44,7 +44,7 @@
  * 1기
     * [Q1](https://github.com/Hyung1Jung/algorithm/blob/master/src/woowacouse2/Q1_1th.java)
     * [Q2]()
-    * [Q3](https://github.com/Hyung1Jung/algorithm/blob/master/src/woowacouse2/Q2_1th.java)
+    * [Q3](https://github.com/Hyung1Jung/algorithm/blob/master/src/woowacouse2/Q3_1th.java)
     * [Q4](https://github.com/Hyung1Jung/algorithm/blob/master/src/woowacouse2/Q4_1th.java)
     * [Q5](https://github.com/Hyung1Jung/algorithm/blob/master/src/woowacouse2/Q5_1th.java)
     * [Q6]()
