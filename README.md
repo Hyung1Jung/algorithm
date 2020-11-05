@@ -47,8 +47,8 @@
     * [Q3]
     * [Q4](https://github.com/Hyung1Jung/algorithm/blob/master/src/woowacouse2/Q4_1th.java)
     * [Q5](https://github.com/Hyung1Jung/algorithm/blob/master/src/woowacouse2/Q5_1th.java)
-    * [Q6]()
-    * [Q7]()
+    * [Q6]
+    * [Q7](https://github.com/Hyung1Jung/algorithm/blob/master/src/woowacouse2/Q7_1th.java)
  * 2기
  
  LeetCode
