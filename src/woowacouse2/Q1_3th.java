@@ -1,6 +1,6 @@
 package woowacouse2;
 
-public class Q1_2th {
+public class Q1_3th {
 
     public static void main(String[] args) {
         int[] a=  {0, 0};
