@@ -12,12 +12,13 @@ public class 프린터 {
 
         for (int i : priorities) {
             pq.add(i);
+            System.out.println(pq);
         }
 
         while (!pq.isEmpty()) {
             int size = priorities.length;
             for (int i = 0; i < size; i++) {
-                if (priorities[i] == (int) pq.peek()) {
+                if (priorities[i] == pq.peek()) {
                     if (i == location) {
                         return answer;
                     }
