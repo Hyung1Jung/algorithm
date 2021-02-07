@@ -33,7 +33,7 @@ public class 프린터 {
         public static void main (String[]args){
 
             int[] priorities = {2, 1, 3, 2};
-            int location = 2;
+            int location = 1;
             int answer = solution(priorities, location);
             System.out.println(answer);
 
