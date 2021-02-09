@@ -21,7 +21,5 @@ public class Q10972 {
             array[i] = Integer.parseInt(st.nextToken());
         }
         System.out.println(Arrays.toString(array));
-
     }
-
 }
