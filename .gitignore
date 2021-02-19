@@ -1,3 +1,4 @@
+HELP.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
@@ -24,8 +25,6 @@ bin/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-application-local.yml
-application.yml
 
 ### NetBeans ###
 /nbproject/private/
@@ -36,7 +35,3 @@ application.yml
 
 ### VS Code ###
 .vscode/
-
-
-
-
