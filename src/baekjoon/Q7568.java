@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 
 public class Q7568 {
 
-    static class Person {
+    static class Person{
         int weight, height;
 
         public Person(int weight, int height) {

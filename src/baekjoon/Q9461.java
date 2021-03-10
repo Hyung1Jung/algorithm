@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Q9461 {
+    // N 번째 삼각형의 변의 길이는, N - 1번째 삼각형 변의 길이 + N-5 번째 삼각형 변의 길이다.
     static long 파도반수열(int N) {
         long[] A = new long[Math.max(N, 5)];
         A[0] = 1;

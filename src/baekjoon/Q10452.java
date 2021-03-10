@@ -1,6 +1,9 @@
 package baekjoon;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /*
 Title : 순열 사이클
@@ -22,25 +25,29 @@ public class Q10452 {
         return dfs(arr[i]);
     }
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int tc = sc.nextInt();
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+
+        int tc = Integer.parseInt(br.readLine());
+
         int cnt;
 
         for (int i = 0; i < tc; i++) {
-            n = sc.nextInt();
+            n = Integer.parseInt(br.readLine());
             cnt = 0;
             arr = new int[n + 1];
             v = new boolean[n + 1];
             for (int j = 1; j < n + 1; j++) {
-                arr[j] = sc.nextInt();
+                st = new StringTokenizer(br.readLine(), " ");
+                arr[j] = Integer.parseInt(st.nextToken());
             }
             for (int j = 1; j < n + 1; j++) {
                 if (!v[j]) {
                     cnt += dfs(j);
                 }
-                System.out.print(cnt);
             }
+            System.out.print(cnt);
         }
 
     }
