@@ -1,4 +1,4 @@
-package kakao;
+package src.kakao.blind;
 
 public class 문자열압축 {
     public static int solution(String s) {
