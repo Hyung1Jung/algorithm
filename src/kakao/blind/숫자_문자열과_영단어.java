@@ -6,7 +6,9 @@ public class 숫자_문자열과_영단어 {
 
     public int solution(String s) {
 
-        for (int i = 0; i < word.length; ++i) {
+        int size = word.length;
+
+        for (int i = 0; i < size; ++i) {
             s = s.replaceAll(word[i], String.valueOf(i));
         }
 
